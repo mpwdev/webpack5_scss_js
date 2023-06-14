@@ -1,0 +1,59 @@
+@use 'base';
+
+body {
+  font-family: 'max test', sans-serif;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  padding-top: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  background-image: url('../images/video.png');
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+img {
+  max-height: 450px;
+}
+
+.code {
+  color: crimson;
+}
+
+$border: 3px solid red;
+
+.box {
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  border: $border;
+
+  h2 {
+    text-align: center;
+    color: blue;
+  }
+}
+
+.test {
+  margin-inline-end: 10px;
+}
+
+.test-grid {
+  grid-gap: 15rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.test2 {
+  // check that empy deleted
+}

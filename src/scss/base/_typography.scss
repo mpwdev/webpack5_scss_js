@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Roboto;
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+/* store fonts locally start */
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald'), url('../fonts/Oswald-Regular.woff2') format('woff2'),
+    url('../fonts/Oswald-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald'), url('../fonts/Oswald-Bold.woff2') format('woff2'),
+    url('../fonts/Oswald-Bold.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quattrocento';
+  src: local('Quattrocento'),
+    url('../fonts/quattrocento-regular-webfont.woff2') format('woff2'),
+    url('../fonts/quattrocento-regular-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quattrocento';
+  src: local('Quattrocento'),
+    url('../fonts/quattrocento-bold-webfont.woff2') format('woff2'),
+    url('../fonts/quattrocento-bold-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* store fonts locally stop */
